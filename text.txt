@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maauia Gharbi — Future Investment Banker | Digital Creator</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons for aesthetic vectors -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Define Inter font and set base styles for a clean dark mode */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d111c; /* Very dark blue/gray */
+            color: #e5e7eb; /* Light gray text */
+            scroll-behavior: smooth;
+        }
+        /* Custom scrollbar style for better aesthetics (optional) */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #1a202c; }
+        ::-webkit-scrollbar-thumb { background: #3b82f6; border-radius: 4px; }
+        /* Style for section titles */
+        .section-title {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+            color: #3b82f6; /* Accent color */
+            font-size: 2.25rem; /* text-4xl */
+            font-weight: 800; /* font-extrabold */
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50%;
+            height: 4px;
+            background-color: #10b981; /* Secondary accent color (mint green) */
+            border-radius: 2px;
+        }
+        /* Style for link hovering */
+        .nav-link:hover {
+            color: #3b82f6;
+            transition: color 0.3s ease;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- 1. NAVIGATION BAR -->
+    <header class="sticky top-0 z-50 bg-[#1a202c]/95 backdrop-blur-md shadow-lg border-b border-gray-700">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex justify-between items-center">
+                <!-- Logo/Name -->
+                <a href="#home" class="text-2xl font-extrabold text-[#10b981] hover:text-blue-400 transition duration-300">
+                    M. Gharbi
+                </a>
+                <!-- Desktop Links -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-300 font-medium">Home</a>
+                    <a href="#about" class="nav-link text-gray-300 font-medium">About</a>
+                    <a href="#skills" class="nav-link text-gray-300 font-medium">Skills</a>
+                    <a href="#experience" class="nav-link text-gray-300 font-medium">Experience</a>
+                    <a href="#goals" class="nav-link text-gray-300 font-medium">Goals</a>
+                    <a href="#contact" class="nav-link text-gray-300 font-medium">Contact</a>
+                </div>
+                <!-- Mobile Menu Button (Optional, simple links used here for single file) -->
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16">
+
+        <!-- 1. HERO SECTION -->
+        <section id="home" class="min-h-screen flex items-center pt-20 pb-12">
+            <div class="lg:w-3/4">
+                <p class="text-xl sm:text-2xl font-semibold text-[#10b981] mb-3">Hi, I'm</p>
+                <h1 class="text-5xl sm:text-7xl lg:text-8xl font-extrabold leading-tight tracking-tighter text-white">
+                    Maauia Gharbi
+                </h1>
+                <h2 class="text-2xl sm:text-3xl font-light text-blue-400 mt-4 mb-8">
+                    Future Investment Banker | Multi-Skilled Creator | Finance Student
+                </h2>
+                <div class="bg-[#1a202c] p-6 sm:p-8 rounded-2xl shadow-2xl border border-gray-700">
+                    <p class="text-lg sm:text-xl font-medium text-gray-300 mb-4">
+                        Driven finance student and digital creator with experience in marketing, stock trading, and startup building.
+                    </p>
+                    <p class="text-lg sm:text-xl font-medium text-gray-300">
+                        Developing a strong personal brand while aiming for a career pathway from <span class="text-[#10b981] font-bold">Investment Banking → Private Equity → Venture Capital</span>.
+                    </p>
+                </div>
+                <a href="#about" class="mt-10 inline-flex items-center px-8 py-3 border border-transparent text-lg font-medium rounded-full shadow-lg text-white bg-blue-600 hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+                    Explore My Profile
+                    <i data-lucide="arrow-right" class="ml-2 w-5 h-5"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT ME & 3. MY MISSION -->
+        <section id="about" class="py-16 border-t border-gray-800">
+            <h2 class="section-title">About Me & Mission</h2>
+            <div class="grid lg:grid-cols-3 gap-10">
+                <div class="lg:col-span-2 space-y-6">
+                    <p class="text-gray-300 text-lg leading-relaxed">
+                        I’m **Maauia Gharbi**, a finance student at Xiamen University Malaysia and a multi-skilled digital creator with over **1M+ Instagram views**. I combine analytical thinking with creativity, moving toward a career in investment banking with the long-term goal of transitioning to private equity and venture capital.
+                    </p>
+                    <p class="text-gray-300 text-lg leading-relaxed bg-[#1a202c] p-4 rounded-xl border border-gray-700">
+                        I run a growing travel agency startup, trade in the stock market, and previously worked as a Marketing Agent at Hyperconnect Malaysia. I’m a practical “jack of all trades” with strong **adaptability, critical thinking, and problem-solving skills.**
+                    </p>
+                    <p class="text-gray-300 text-lg leading-relaxed">
+                        My work is driven by hunger to learn, global exposure, and building a strong professional identity.
+                    </p>
+                </div>
+                <!-- Mission Box -->
+                <div class="lg:col-span-1 p-6 bg-blue-900/50 border border-blue-700 rounded-xl shadow-xl flex flex-col justify-center">
+                    <i data-lucide="trending-up" class="w-10 h-10 text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-bold text-white mb-3">My Long-Term Mission</h3>
+                    <p class="text-lg text-gray-200">
+                        To become a high-impact investment banker, transition into private equity, and later invest in innovative startups through venture capital — while building a recognized **personal brand** in business, finance, and global mobility.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. PERSONAL BRAND (Integrating it visually) -->
+        <section class="py-16">
+            <div class="bg-gray-800 p-8 rounded-2xl shadow-inner border-l-4 border-[#10b981]">
+                <h3 class="text-3xl font-extrabold text-white mb-4">Personal Brand: The Convergence</h3>
+                <p class="text-xl font-medium text-blue-400 mb-6">
+                    "Multi-skilled, practical, analytical — a modern creator entering high finance."
+                </p>
+                <div class="flex flex-wrap gap-4 text-lg font-semibold">
+                    <span class="px-4 py-2 bg-gray-900 border border-[#10b981] text-[#10b981] rounded-full flex items-center">
+                        <i data-lucide="check-circle" class="w-5 h-5 mr-2"></i>Finance
+                    </span>
+                    <span class="px-4 py-2 bg-gray-900 border border-[#10b981] text-[#10b981] rounded-full flex items-center">
+                        <i data-lucide="check-circle" class="w-5 h-5 mr-2"></i>Creativity
+                    </span>
+                    <span class="px-4 py-2 bg-gray-900 border border-[#10b981] text-[#10b981] rounded-full flex items-center">
+                        <i data-lucide="check-circle" class="w-5 h-5 mr-2"></i>Strategy
+                    </span>
+                    <span class="px-4 py-2 bg-gray-900 border border-[#10b981] text-[#10b981] rounded-full flex items-center">
+                        <i data-lucide="check-circle" class="w-5 h-5 mr-2"></i>Global Mobility
+                    </span>
+                    <span class="px-4 py-2 bg-gray-900 border border-[#10b981] text-[#10b981] rounded-full flex items-center">
+                        <i data-lucide="check-circle" class="w-5 h-5 mr-2"></i>Digital Presence
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. MY SKILLS -->
+        <section id="skills" class="py-16 border-t border-gray-800">
+            <h2 class="section-title">My Skills</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- Core Finance Skills -->
+                <div class="bg-[#1a202c] p-6 rounded-xl shadow-xl border border-gray-700">
+                    <i data-lucide="landmark" class="w-8 h-8 text-blue-400 mb-4"></i>
+                    <h3 class="text-2xl font-bold text-white mb-4">Core Finance Skills</h3>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Investment Banking Foundations</li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Equity & Debt Analysis</li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Stock Market Trading</li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Corporate Finance</li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Financial Modeling <span class="text-yellow-500 text-sm ml-2">(in progress)</span></li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Business Valuation <span class="text-yellow-500 text-sm ml-2">(developing)</span></li>
+                    </ul>
+                </div>
+
+                <!-- Business & Creator Skills -->
+                <div class="bg-[#1a202c] p-6 rounded-xl shadow-xl border border-gray-700">
+                    <i data-lucide="rocket" class="w-8 h-8 text-blue-400 mb-4"></i>
+                    <h3 class="text-2xl font-bold text-white mb-4">Business & Creator Skills</h3>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Social Media Growth (1M+ views)</li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Content Strategy</li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Startup Building</li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Marketing & Branding</li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Audience Development</li>
+                    </ul>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="bg-[#1a202c] p-6 rounded-xl shadow-xl border border-gray-700">
+                    <i data-lucide="users" class="w-8 h-8 text-blue-400 mb-4"></i>
+                    <h3 class="text-2xl font-bold text-white mb-4">Soft Skills</h3>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Critical Thinking & Problem Solving</li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Strong Adaptability & Detail-Oriented</li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Professionalism & Communication</li>
+                        <li class="flex items-center"><span class="text-[#10b981] mr-2">&bull;</span> Leadership <span class="text-sm ml-1">(Football team captain)</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. EXPERIENCE & 7. EDUCATION -->
+        <section id="experience" class="py-16 border-t border-gray-800">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="grid lg:grid-cols-3 gap-10">
+                <!-- Experience Timeline -->
+                <div class="lg:col-span-2">
+                    <h3 class="text-3xl font-bold text-white mb-6 border-b border-gray-700 pb-3">Professional Track Record</h3>
+                    <ol class="relative border-s border-blue-400 space-y-8">
+                        <!-- Digital Creator -->
+                        <li class="ms-6">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-[#10b981] rounded-full -start-3 ring-8 ring-gray-900">
+                                <i data-lucide="video" class="w-3 h-3 text-white"></i>
+                            </span>
+                            <h4 class="flex items-center mb-1 text-xl font-semibold text-white">Digital Creator (Personal Brand)</h4>
+                            <p class="block mb-2 text-sm font-normal leading-none text-gray-400">Ongoing</p>
+                            <ul class="text-base font-normal text-gray-300 list-disc pl-5 space-y-1">
+                                <li>Achieved over 1,000,000 views across platforms.</li>
+                                <li>Building long-term personal brand focused on finance, lifestyle, and travel content.</li>
+                            </ul>
+                        </li>
+                        <!-- Founder – Travel Agency Startup -->
+                        <li class="ms-6">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-600 rounded-full -start-3 ring-8 ring-gray-900">
+                                <i data-lucide="plane" class="w-3 h-3 text-white"></i>
+                            </span>
+                            <h4 class="flex items-center mb-1 text-xl font-semibold text-white">Founder – Travel Agency Startup</h4>
+                            <p class="block mb-2 text-sm font-normal leading-none text-gray-400">Ongoing</p>
+                            <ul class="text-base font-normal text-gray-300 list-disc pl-5 space-y-1">
+                                <li>Providing mobility solutions for Tunisians.</li>
+                                <li>Managing operations, strategy, and customer acquisition.</li>
+                                <li>Applying business and marketing fundamentals in a real-world venture.</li>
+                            </ul>
+                        </li>
+                        <!-- Marketing Agent – Hyperconnect Malaysia -->
+                        <li class="ms-6">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-600 rounded-full -start-3 ring-8 ring-gray-900">
+                                <i data-lucide="megaphone" class="w-3 h-3 text-white"></i>
+                            </span>
+                            <h4 class="flex items-center mb-1 text-xl font-semibold text-white">Marketing Agent – Hyperconnect Malaysia</h4>
+                            <p class="block mb-2 text-sm font-normal leading-none text-gray-400">Previous Role</p>
+                            <ul class="text-base font-normal text-gray-300 list-disc pl-5 space-y-1">
+                                <li>Managed digital communication and customer engagement.</li>
+                                <li>Developed on-ground marketing experience.</li>
+                                <li>Improved sales and strategic collaboration skills.</li>
+                            </ul>
+                        </li>
+                        <!-- Stock Market Trader -->
+                        <li class="ms-6">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-[#10b981] rounded-full -start-3 ring-8 ring-gray-900">
+                                <i data-lucide="trending-up" class="w-3 h-3 text-white"></i>
+                            </span>
+                            <h4 class="flex items-center mb-1 text-xl font-semibold text-white">Stock Market Trader</h4>
+                            <p class="block mb-2 text-sm font-normal leading-none text-gray-400">Ongoing Practice</p>
+                            <ul class="text-base font-normal text-gray-300 list-disc pl-5 space-y-1">
+                                <li>Actively trading equities based on market analysis.</li>
+                                <li>Applying fundamental and technical financial analysis.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+
+                <!-- Education & Projects -->
+                <div class="lg:col-span-1 space-y-10">
+                    <!-- Education -->
+                    <div class="p-6 bg-[#1a202c] rounded-xl shadow-xl border border-gray-700 h-1/2">
+                        <h3 class="text-3xl font-bold text-white mb-4 border-b border-gray-700 pb-3">Education</h3>
+                        <div class="mb-4">
+                            <i data-lucide="graduation-cap" class="w-8 h-8 text-blue-400 mb-2"></i>
+                            <p class="text-xl font-semibold text-white">Finance Student</p>
+                            <p class="text-lg text-gray-300">Xiamen University Malaysia</p>
+                        </div>
+                        <div class="flex items-center text-gray-400">
+                            <i data-lucide="award" class="w-4 h-4 mr-2"></i>
+                            <p>IELTS Score: 6.5</p>
+                        </div>
+                    </div>
+
+                    <!-- Projects -->
+                    <div id="projects" class="p-6 bg-[#1a202c] rounded-xl shadow-xl border border-gray-700 h-1/2">
+                        <h3 class="text-3xl font-bold text-white mb-4 border-b border-gray-700 pb-3">Key Projects</h3>
+                        <ul class="space-y-4">
+                            <li class="text-gray-300">
+                                <span class="font-semibold text-blue-400">Travel Agency for Tunisians:</span> A growing startup helping Tunisians travel and relocate more easily.
+                            </li>
+                            <li class="text-gray-300">
+                                <span class="font-semibold text-blue-400">Digital Creator Brand:</span> Building a global audience with finance, lifestyle, and travel content.
+                            </li>
+                            <li class="text-gray-300">
+                                <span class="font-semibold text-blue-400">IB Career Roadmap:</span> Preparing advanced finance and modeling skills for IB → PE → VC career transitions.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. MY GOALS -->
+        <section id="goals" class="py-16 border-t border-gray-800">
+            <h2 class="section-title">My Career & Life Goals</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- Short-Term -->
+                <div class="p-6 bg-[#1a202c] rounded-xl shadow-xl border-t-4 border-blue-500">
+                    <i data-lucide="gauge" class="w-8 h-8 text-blue-400 mb-4"></i>
+                    <h3 class="text-2xl font-bold text-white mb-4">Short-Term (2025–2028)</h3>
+                    <ul class="space-y-3 text-gray-300 list-disc pl-5">
+                        <li>Graduate in Finance.</li>
+                        <li>Secure internships in **Investment Banking** / Big 4 Corporate Finance / Consulting.</li>
+                        <li>Strengthen personal brand and digital presence.</li>
+                        <li>Improve financial modeling and valuation skills.</li>
+                    </ul>
+                </div>
+
+                <!-- Mid-Term -->
+                <div class="p-6 bg-[#1a202c] rounded-xl shadow-xl border-t-4 border-[#10b981]">
+                    <i data-lucide="briefcase" class="w-8 h-8 text-[#10b981] mb-4"></i>
+                    <h3 class="text-2xl font-bold text-white mb-4">Mid-Term (2028–2033)</h3>
+                    <ul class="space-y-3 text-gray-300 list-disc pl-5">
+                        <li>Break into **Investment Banking**.</li>
+                        <li>Move to Dubai or Qatar (Global Mobility).</li>
+                        <li>Become top performer in M&A or corporate finance.</li>
+                        <li>Expand the travel startup or launch a new venture.</li>
+                    </ul>
+                </div>
+
+                <!-- Long-Term -->
+                <div class="p-6 bg-[#1a202c] rounded-xl shadow-xl border-t-4 border-red-500">
+                    <i data-lucide="crown" class="w-8 h-8 text-red-400 mb-4"></i>
+                    <h3 class="text-2xl font-bold text-white mb-4">Long-Term (2033+)</h3>
+                    <ul class="space-y-3 text-gray-300 list-disc pl-5">
+                        <li>Transition to **Private Equity (PE)**.</li>
+                        <li>Later move into **Venture Capital (VC)**.</li>
+                        <li>Build a significant investment portfolio.</li>
+                        <li>Support and inspire Tunisian youth globally.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. CONTACT SECTION -->
+        <section id="contact" class="py-16 border-t border-gray-800">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="text-xl text-gray-300 mb-8">Let's connect. I'm always open to discussing finance, business strategy, or collaboration opportunities.</p>
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <!-- Email -->
+                <a href="mailto:maauiagharbi505@gmail.com" class="flex items-center p-6 bg-[#1a202c] rounded-xl shadow-md border border-gray-700 hover:bg-gray-800 transition duration-300">
+                    <i data-lucide="mail" class="w-8 h-8 text-blue-400 mr-4"></i>
+                    <div>
+                        <p class="text-sm font-medium text-gray-400">Email Address</p>
+                        <p class="text-lg font-semibold text-white">maauiagharbi505@gmail.com</p>
+                    </div>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/maauia_gharbi" target="_blank" rel="noopener noreferrer" class="flex items-center p-6 bg-[#1a202c] rounded-xl shadow-md border border-gray-700 hover:bg-gray-800 transition duration-300">
+                    <i data-lucide="instagram" class="w-8 h-8 text-pink-400 mr-4"></i>
+                    <div>
+                        <p class="text-sm font-medium text-gray-400">Instagram</p>
+                        <p class="text-lg font-semibold text-white">@maauia_gharbi</p>
+                    </div>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/maauia-el-fadhl-el-gharbi" target="_blank" rel="noopener noreferrer" class="flex items-center p-6 bg-[#1a202c] rounded-xl shadow-md border border-gray-700 hover:bg-gray-800 transition duration-300">
+                    <i data-lucide="linkedin" class="w-8 h-8 text-blue-500 mr-4"></i>
+                    <div>
+                        <p class="text-sm font-medium text-gray-400">LinkedIn Profile</p>
+                        <p class="text-lg font-semibold text-white">Maauia El Fadhl El Gharbi</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#1a202c] border-t border-gray-800 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500">
+            <p>&copy; 2025 Maauia Gharbi. Built for Professional Impact.</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        // Calls the lucide function to replace icon tags with SVG
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
